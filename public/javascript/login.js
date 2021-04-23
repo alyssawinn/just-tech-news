@@ -15,7 +15,11 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
+<<<<<<< HEAD
       document.location.replace('/');
+=======
+      document.location.replace('/dashboard');
+>>>>>>> develop
     } else {
       alert(response.statusText);
     }
