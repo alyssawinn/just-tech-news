@@ -31,14 +31,10 @@ router.get('/', (req, res) => {
     .then(dbPostData => {
       const posts = dbPostData.map(post => post.get({ plain: true }));
 
-<<<<<<< HEAD
-      res.render('homepage', { posts });
-=======
       res.render('homepage', {
         posts,
         loggedIn: req.session.loggedIn
       });
->>>>>>> develop
     })
     .catch(err => {
       console.log(err);
@@ -55,8 +51,6 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-<<<<<<< HEAD
-=======
 router.get('/post/:id', (req, res) => {
   /* const post = {
     id: 1,
@@ -115,5 +109,4 @@ router.get('/post/:id', (req, res) => {
   });
 });
 
->>>>>>> develop
 module.exports = router;

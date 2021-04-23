@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "just-tech-news",
-=======
-  "name": "hacker-news-clone",
->>>>>>> develop
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -21,16 +17,11 @@
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.1",
     "handlebars": "^4.7.3",
-<<<<<<< HEAD
-    "mysql2": "^2.2.5",
-    "sequelize": "^5.22.4"
-=======
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^5.22.4"
   },
   "devDependencies": {
     "jest": "^26.6.3"
->>>>>>> develop
   }
 }
